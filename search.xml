@@ -1,63 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[XMPP]]></title>
-      <url>/2017/08/29/XMPP/</url>
-      <content type="html"><![CDATA[<p><img src="https://picabstract-preview-ftn.weiyun.com:8443/ftn_pic_abs_v2/834e392a8d21138d08cbab24ed052a02588ab852680350c6c12195a73b51a3b2ec7f2c6f990a30977378522dc85a0fa8?pictype=scale&amp;from=30113&amp;version=2.0.0.2&amp;uin=211296237&amp;fname=%E7%A5%9E%E7%A7%98%E6%B5%B7%E5%9F%9F.jpg&amp;size=1024" alt=""><br>XMPP（Extensible Messaging and Presence Protocol，前称Jabber）是一种以XML为基础的开放式即时通信协议</p>
-<h2 id="运作方式"><a href="#运作方式" class="headerlink" title="运作方式"></a>运作方式</h2><p>XMPP网络是基于服务器的（即客户端之间彼此不直接交谈），但是也是分布式的。不像AOL即时通或MSN Messenger等服务，XMPP没有中央官方服务器。Jabber.org的公众服务器上有大量的用户，所以有些人误解了，以为它是官方服务器，不过事实上任何人都可以在自己的网域上运行XMPP服务器。</p>
-<p>Jabber识别符（JID）是用户登录时所使用的账号，看起来通常像一个电子邮件地址，如someone@example.com；前半部分为用户名，后半部分为XMPP服务器域名，两个字段以@符号区隔。</p>
-<h3 id="举例说明"><a href="#举例说明" class="headerlink" title="举例说明"></a>举例说明</h3><p>假设朱丽叶（juliet@capulet.com）想和罗密欧（romeo@montague.net）通话，他们两人的账号分别在Capulet.com及Montague.net的服务器上。当朱丽叶输入消息并按下发送钮之后，一连串的事件就发生了：<br>朱丽叶的XMPP客户端将她的消息发送到Capulet.com XMPP服务器。<br>Capulet.com XMPP服务器打开与Montague.net XMPP服务器的连接。<br>Montague.net XMPP服务器将消息寄送给罗密欧。如果他目前不在在线，那么存储消息以待稍后寄送。<br><img src="https://picabstract-preview-ftn.weiyun.com:8443/ftn_pic_abs_v2/0195f591294b5f1ab80d9e1656bf0404f780353be75f9767de58775792e6c88f1f5302e54e1e4d00803f0805bdb00da2?pictype=scale&amp;from=30113&amp;version=2.0.0.2&amp;uin=211296237&amp;fname=xmpp%E6%97%B6%E5%BA%8F.png&amp;size=1024" alt="image"><br>罗密欧与朱丽叶两人的XMPP服务是由两家不同的业者所提供的，而他们彼此传讯时，不须拥有对方服务器的账号，也不须成为对方业者的会员。</p>
-<h2 id="Smack"><a href="#Smack" class="headerlink" title="Smack"></a><a href="https://baike.baidu.com/item/Smack/7056177?fr=aladdin" target="_blank" rel="external">Smack</a></h2>]]></content>
-      
-        <categories>
-            
-            <category> XMPP </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> XMPP </tag>
-            
-            <tag> Smack </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/08/24/hello-world/</url>
-      <content type="html"><![CDATA[<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1503988765870&amp;di=eb114066992faf01dc25e5a02cf5154d&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.hdslb.com%2Fgroup1%2FM00%2F31%2F2E%2FoYYBAFbNw4iAMKVrAAGA-GMMa8A895.jpg" alt="image"></p>
-<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=440353010&auto=1&height=32"></iframe><br>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> hello world </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> hello world </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[XMPP]]></title>
+    <url>%2F2017%2F08%2F29%2FXMPP%2F</url>
+    <content type="text"><![CDATA[XMPP（Extensible Messaging and Presence Protocol，前称Jabber）是一种以XML为基础的开放式即时通信协议 运作方式XMPP网络是基于服务器的（即客户端之间彼此不直接交谈），但是也是分布式的。不像AOL即时通或MSN Messenger等服务，XMPP没有中央官方服务器。Jabber.org的公众服务器上有大量的用户，所以有些人误解了，以为它是官方服务器，不过事实上任何人都可以在自己的网域上运行XMPP服务器。 Jabber识别符（JID）是用户登录时所使用的账号，看起来通常像一个电子邮件地址，如someone@example.com；前半部分为用户名，后半部分为XMPP服务器域名，两个字段以@符号区隔。 举例说明假设朱丽叶（juliet@capulet.com）想和罗密欧（romeo@montague.net）通话，他们两人的账号分别在Capulet.com及Montague.net的服务器上。当朱丽叶输入消息并按下发送钮之后，一连串的事件就发生了：朱丽叶的XMPP客户端将她的消息发送到Capulet.com XMPP服务器。Capulet.com XMPP服务器打开与Montague.net XMPP服务器的连接。Montague.net XMPP服务器将消息寄送给罗密欧。如果他目前不在在线，那么存储消息以待稍后寄送。罗密欧与朱丽叶两人的XMPP服务是由两家不同的业者所提供的，而他们彼此传讯时，不须拥有对方服务器的账号，也不须成为对方业者的会员。 Smack]]></content>
+      <categories>
+        <category>XMPP</category>
+      </categories>
+      <tags>
+        <tag>XMPP</tag>
+        <tag>Smack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F08%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>hello world</category>
+      </categories>
+      <tags>
+        <tag>hello world</tag>
+      </tags>
+  </entry>
 </search>
