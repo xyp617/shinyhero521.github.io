@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Markdown示例]]></title>
     <url>%2F2017%2F10%2F13%2Fmarkdown%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%2F</url>
-    <content type="text"><![CDATA[###粗体 马克飞象 ###突出Ctrl + / ###列表 第一项 第二项 ###引用 三人行必有吾师。 —— 孔子 链接名或一个脚注[^demo]。 ###代码1var emp = &#123; name:"Frank", age:45 &#125;; 1代码内容 1代码内容 表格 Item 价格 数量 Computer 5600 5 Phone 120 12 Pipe 10 234 ###流程图123456789st=&gt;start: 开始e=&gt;end: 结束op1=&gt;operation: 准备数据op2=&gt;operation: 计算处理cond1=&gt;condition: 是否正确?st-&gt;op1-&gt;op2-&gt;cond1cond1(yes)-&gt;econd1(no)-&gt;op1 ###以及时序图: 123客户端-&gt;服务端: 给我姓名叫张三的员工信息Note right of 服务端: 服务端响应服务端--&gt;客户端: 给你张三的信息 LaTeX 公式可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式： $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$]]></content>
+    <content type="text"><![CDATA[###粗体 马克飞象 ###突出Ctrl + / ###列表 第一项 第二项 ###引用 三人行必有吾师。 —— 孔子 链接名或一个脚注[^demo]。 ###代码1var emp = &#123; name:"Frank", age:45 &#125;; 1代码内容 1代码内容 表格 Item 价格 数量 Computer 5600 5 Phone 120 12 Pipe 10 234 ###流程图 ###以及时序图: 123客户端-&gt;服务端: 给我姓名叫张三的员工信息Note right of 服务端: 服务端响应服务端--&gt;客户端: 给你张三的信息 LaTeX 公式可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式： $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$ st=>start: 开始 e=>end: 结束 op1=>operation: 准备数据 op2=>operation: 计算处理 cond1=>condition: 是否正确? st->op1->op2->cond1 cond1(yes)->e cond1(no)->op1{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12} var code = document.getElementById("flowchart-0-code").value; var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value)); var diagram = flowchart.parse(code); diagram.drawSVG("flowchart-0", options);]]></content>
       <categories>
         <category>Markdown</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[vocabulary]]></title>
     <url>%2F2017%2F10%2F12%2F%E5%8D%95%E8%AF%8D%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[包名：全部小写，如包名“com.sina.crm”。 变量名：第1个单词首字母小写，其后单词首字母大写。变量名应简单、易于描述，尽量不要以美元符号和下画线开，如变量名“name”、“myHeight”。 方法名：第1个单词小写，以后每个单词首字母大写，例如方法名“getName”。 类名或接口名：每个单词首字母大写，应使用简洁且富于描述的完整名词，不要使用缩写词，如类名“MyData”，接口名“RowSet”。 常量：全大写，用下画线“_”来分隔每个单词，例如“MIN_WIDTH”。 简单的说，就是包名全小写，变量名和方法、类名和接口名 非首字母都大写，但是类名和方法名首字母小写 123456patchy英 [&apos;pætʃɪ] 美 [&apos;pætʃi]adj. 不调和的；拼凑成的；有补丁的比较级patchier最高级patchiest]]></content>
+    <content type="text"><![CDATA[包名：全部小写，如包名“com.sina.crm”。 变量名：第1个单词首字母小写，其后单词首字母大写。变量名应简单、易于描述，尽量不要以美元符号和下画线开，如变量名“name”、“myHeight”。 方法名：第1个单词小写，以后每个单词首字母大写，例如方法名“getName”。 类名或接口名：每个单词首字母大写，应使用简洁且富于描述的完整名词，不要使用缩写词，如类名“MyData”，接口名“RowSet”。 常量：全大写，用下画线“_”来分隔每个单词，例如“MIN_WIDTH”。 简单的说，就是包名全小写，变量名和方法、类名和接口名 非首字母都大写，但是变量名和方法名首字母小写 123456patchy英 [&apos;pætʃɪ] 美 [&apos;pætʃi]adj. 不调和的；拼凑成的；有补丁的比较级patchier最高级patchiest]]></content>
       <categories>
         <category>vocabulary</category>
       </categories>

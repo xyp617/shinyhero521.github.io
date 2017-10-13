@@ -444,11 +444,22 @@
 </tr>
 </tbody>
 </table>
-<p>###流程图<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: 开始</div><div class="line">e=&gt;end: 结束</div><div class="line">op1=&gt;operation: 准备数据</div><div class="line">op2=&gt;operation: 计算处理</div><div class="line">cond1=&gt;condition: 是否正确?</div><div class="line"></div><div class="line">st-&gt;op1-&gt;op2-&gt;cond1</div><div class="line">cond1(yes)-&gt;e</div><div class="line">cond1(no)-&gt;op1</div></pre></td></tr></table></figure></p>
+<p>###流程图</p>
+<div id="flowchart-0" class="flow-chart"></div>
+
 <p>###以及时序图:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">客户端-&gt;服务端: 给我姓名叫张三的员工信息</div><div class="line">Note right of 服务端: 服务端响应</div><div class="line">服务端--&gt;客户端: 给你张三的信息</div></pre></td></tr></table></figure>
 <h3 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h3><p>可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：</p>
 <p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: 结束
+op1=>operation: 准备数据
+op2=>operation: 计算处理
+cond1=>condition: 是否正确?
+
+st->op1->op2->cond1
+cond1(yes)->e
+cond1(no)->op1</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
 
       
     </div>
