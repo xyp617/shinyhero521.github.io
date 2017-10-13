@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown示例]]></title>
+    <url>%2F2017%2F10%2F13%2Fmarkdown%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%2F</url>
+    <content type="text"><![CDATA[###粗体 马克飞象 ###突出Ctrl + / ###列表 第一项 第二项 ###引用 三人行必有吾师。 —— 孔子 链接名或一个脚注[^demo]。 ###代码1var emp = &#123; name:"Frank", age:45 &#125;; 1代码内容 1代码内容 表格 Item 价格 数量 Computer 5600 5 Phone 120 12 Pipe 10 234 ###流程图123456789st=&gt;start: 开始e=&gt;end: 结束op1=&gt;operation: 准备数据op2=&gt;operation: 计算处理cond1=&gt;condition: 是否正确?st-&gt;op1-&gt;op2-&gt;cond1cond1(yes)-&gt;econd1(no)-&gt;op1 ###以及时序图: 123客户端-&gt;服务端: 给我姓名叫张三的员工信息Note right of 服务端: 服务端响应服务端--&gt;客户端: 给你张三的信息 LaTeX 公式可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式： $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vocabulary]]></title>
+    <url>%2F2017%2F10%2F12%2F%E5%8D%95%E8%AF%8D%E6%9C%AC%2F</url>
+    <content type="text"><![CDATA[包名：全部小写，如包名“com.sina.crm”。 变量名：第1个单词首字母小写，其后单词首字母大写。变量名应简单、易于描述，尽量不要以美元符号和下画线开，如变量名“name”、“myHeight”。 方法名：第1个单词小写，以后每个单词首字母大写，例如方法名“getName”。 类名或接口名：每个单词首字母大写，应使用简洁且富于描述的完整名词，不要使用缩写词，如类名“MyData”，接口名“RowSet”。 常量：全大写，用下画线“_”来分隔每个单词，例如“MIN_WIDTH”。 简单的说，就是包名全小写，变量名和方法、类名和接口名 非首字母都大写，但是类名和方法名首字母小写 123456patchy英 [&apos;pætʃɪ] 美 [&apos;pætʃi]adj. 不调和的；拼凑成的；有补丁的比较级patchier最高级patchiest]]></content>
+      <categories>
+        <category>vocabulary</category>
+      </categories>
+      <tags>
+        <tag>vocabulary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Smack+Spark项目测试]]></title>
     <url>%2F2017%2F08%2F30%2FSmack%2BSpark%E6%B5%8B%E8%AF%95%2F</url>
     <content type="text"><![CDATA[每一个你不满意的现在，都有一个你没有努力的曾经。 Java领域的IM解决方案Java领域的即时通信的解决方案可以考虑openfire+spark+smack。当然也有其他的选择。 什么是XMPP？Extensible Messaging and Presence Protocol，简单的来讲，它就是一个发送接收处理消息的协议，但是这个协议发送的消息，既不是二进制的东东也不是字符串，而是XML。正是因为使用了XML作为消息传递的中介，Extensible 才谈的上，不是么？ 什么是IM ？ Instant Messenger，及时通信软件，就是大家使用的QQ、MSN Messenger和Gtalk等等。其中Gtalk 就是基于XMPP 协议的一个实现，其他的则不是。当前IM 几乎作为每个上网者必然使用的工具，在国外的大型企业中有一些企业级的IM应用，但是其商业价值还没完全发挥出来。设想既然XMPP 协议是一个公开的协议，那么每个企业都可以利用它来开发适合本身企业工作，提高自身生产效率的IM；甚至，你还可以在网络游戏中集成这种通信软件，不但让你可以边游戏边聊天，也可以开发出适合游戏本身的IM 应用，比如说一些游戏关键场景提醒功能，团队语音交流等等都可以基于IM来实现。说了这么多，就是一个意思，其商业价值远远比你想的高！ Spark Smack 和 Openfire 开源界总是有许多有趣的东东，这三个合起来就是一个完整的XMPP IM 实现。包括服务器端——Openfire，客户端——Spark，XMPP 传输协议的实现——Smack（记住，XMPP是一个协议，协议是需要实现的，Smack起到的就是这样的一个作用）。三者都是基于Java 语言的实现，因此对于熟悉Java 的开发者来说不是很难 Spark 提供了客户端一个基本的实现，并提出了一个很好的插件架构，这对于开发者来说不能不说是一个福音。我强烈建议基于插件方式来实现你新增加的功能，而不是去改它的源代码，这样有利于你项目架构，把原始项目的影响降到最低 Openfire 是基于XMPP 协议的IM 的服务器端的一个实现，虽然当两个用户连接后，可以通过点对点的方式来发送消息，但是用户还是需要连接到服务器来获取一些连接信息和通信信息的，所以服务器端是必须要实现的。Openfire 也提供了一些基本功能，但真的很基本的！庆幸的是，它也提供插件的扩展，像Spark 一样，我同样强烈建议使用插件扩展的方式来增加新的功能，而不是修改人家的源代码。 Smack 是一个XMPP 协议的Java 实现，提供一套可扩展的API 下图展示了三者之间的关系： 安装openfire安装spark客户端]]></content>
