@@ -1,71 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[讲标]]></title>
-    <url>%2F2017%2F10%2F20%2F%E8%AE%B2%E6%A0%87%2F</url>
-    <content type="text"><![CDATA[讲标要涉及到标书中的方方面面，要突出公司特点和优势、要突出产品的技术优势和特点，还要尽量照顾到每个评委。讲标通常都有时间限制的，在这个时间段内，如何将公司介绍、商务介绍、技术介绍、项目实施、技术支持与服务等内容的时间合理分配，需要在讲标前仔细斟酌。 时间和内容的分配主要根据以下情况来调整： 了解招标评委的组成和特点。 要力所能及的分析招标评委的组成情况，高层领导、技术专家、部门业务专家等角色的人员组成和数量。通常高层领导对IT技术不熟悉，他评判的主要依据更多的是公司规模、资质、实力、售后服务、价格等非技术性指标，技术专家评判的主要依据是系统体系、采用的新技术、安全性、扩展性、软件开发管理机制等技术指标，而部门业务专家更关心软件的功能、易用性、与现有系统的接口等问题。讲标的过程中要注意观察评委的表情、态度，及时调整内容的深度 充分发挥本公司和技术上的优势和特点。 讲标中，特别是讲标的顺序排在后面的时候，对于一些共性的东西，评委已经比较清楚了，也没有兴趣听你重复，他关心的是你与其它对手相比的特点 对手讲标后的情况和弱点。 针对对手讲标后评委普遍反映的问题进行重点阐述，例如，评委认为系统的安全性和项目开发的规范性很重要，但其它讲过标的对手都没重视，这时，你需要及时调整内容，将安全性和项目开发机制做重点来阐述。另外，不要轻易攻击对手，可能有些评委对你的对手有好感，你对对手的直接攻击，会引起他的反感而刻意打压你。攻击对手的方法是突出自己的优势。讲标中可能由几个人分工讲不同的内容，但要注意整体的逻辑上要严密。可以先由一个人将讲标的全部内容安排做一个介绍，然后在每个人讲完自己部分后，简单介绍下部分的内容，引入下个讲解人员。使整个讲标连贯统一。讲标前要调整好自己的状态和心态，讲标过程中要放松，不要报着“上考场应考”、“被人评判审核”这样的心态，这样会使你陷入一种紧张、诚惶诚恐的状态中。当你上到讲标台上，你应该对自己方案和产品充满信心，多想想如何把自己的长处发挥到及至，而不是时时想着还存在的问题！你越自信，客户以及评委才会对你更有信心。态度诚恳，不卑不亢，注重礼仪，赢得评委好感！ 要点 第一，要对你要讲ppt非常熟，能背下来当然最好。这当然取决于你对投的系统和产品要熟悉。 第二，整个ppt的结构和体系要设计合理，不要很复杂，一般来说，我会分4～5个部分： 1，项目概述（需求和范围） 2，方案设计（项目分析，设计，系统功能说明，具体部署） 3，方案特色 （标明出几个亮点部分） 4，项目实施和维护 5，公司介绍和案例说明。 我感觉是方案设计部分一定要说清楚，方案特色方面要紧密结合用户，千万不能光说功能让人觉得是产品介绍。第三，我觉得就是从技巧方面考虑了，ppt字不要多，提纲挈领再加上图。说话的语气，语速，轻重音，长短，停顿都需要注意，这一点我差的太远，口头语多，容易紧张。需要锻炼。另外讲标或者做售前交流的时候，我觉得有时需要观察评委和用户的态度和表情，及时调整，注意观察。]]></content>
-      <categories>
-        <category>讲标</category>
-      </categories>
-      <tags>
-        <tag>讲标</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Markdown示例]]></title>
-    <url>%2F2017%2F10%2F13%2Fmarkdown%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%2F</url>
-    <content type="text"><![CDATA[###粗体 马克飞象 ###突出Ctrl + / ###列表 第一项 第二项 ###引用 三人行必有吾师。 —— 孔子 链接名或一个脚注[^demo]。 ###代码1var emp = &#123; name:"Frank", age:45 &#125;; 1代码内容 1代码内容 表格 Item 价格 数量 Computer 5600 5 Phone 120 12 Pipe 10 234 ###流程图 ###以及时序图: 123客户端-&gt;服务端: 给我姓名叫张三的员工信息Note right of 服务端: 服务端响应服务端--&gt;客户端: 给你张三的信息 LaTeX 公式可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式： $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$ st=>start: 开始 e=>end: 结束 op1=>operation: 准备数据 op2=>operation: 计算处理 cond1=>condition: 是否正确? st->op1->op2->cond1 cond1(yes)->e cond1(no)->op1{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12} var code = document.getElementById("flowchart-0-code").value; var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value)); var diagram = flowchart.parse(code); diagram.drawSVG("flowchart-0", options);]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[vocabulary]]></title>
-    <url>%2F2017%2F10%2F12%2F%E5%8D%95%E8%AF%8D%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[包名：全部小写，如包名“com.sina.crm”。 变量名：第1个单词首字母小写，其后单词首字母大写。变量名应简单、易于描述，尽量不要以美元符号和下画线开，如变量名“name”、“myHeight”。 方法名：第1个单词小写，以后每个单词首字母大写，例如方法名“getName”。 类名或接口名：每个单词首字母大写，应使用简洁且富于描述的完整名词，不要使用缩写词，如类名“MyData”，接口名“RowSet”。 常量：全大写，用下画线“_”来分隔每个单词，例如“MIN_WIDTH”。 简单的说，就是包名全小写，变量名和方法、类名和接口名 非首字母都大写，但是变量名和方法名首字母小写 123456patchy英 [&apos;pætʃɪ] 美 [&apos;pætʃi]adj. 不调和的；拼凑成的；有补丁的比较级patchier最高级patchiest]]></content>
-      <categories>
-        <category>vocabulary</category>
-      </categories>
-      <tags>
-        <tag>vocabulary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Smack+Spark项目测试]]></title>
-    <url>%2F2017%2F08%2F30%2FSmack%2BSpark%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[每一个你不满意的现在，都有一个你没有努力的曾经。 Java领域的IM解决方案Java领域的即时通信的解决方案可以考虑openfire+spark+smack。当然也有其他的选择。 什么是XMPP？Extensible Messaging and Presence Protocol，简单的来讲，它就是一个发送接收处理消息的协议，但是这个协议发送的消息，既不是二进制的东东也不是字符串，而是XML。正是因为使用了XML作为消息传递的中介，Extensible 才谈的上，不是么？ 什么是IM ？ Instant Messenger，及时通信软件，就是大家使用的QQ、MSN Messenger和Gtalk等等。其中Gtalk 就是基于XMPP 协议的一个实现，其他的则不是。当前IM 几乎作为每个上网者必然使用的工具，在国外的大型企业中有一些企业级的IM应用，但是其商业价值还没完全发挥出来。设想既然XMPP 协议是一个公开的协议，那么每个企业都可以利用它来开发适合本身企业工作，提高自身生产效率的IM；甚至，你还可以在网络游戏中集成这种通信软件，不但让你可以边游戏边聊天，也可以开发出适合游戏本身的IM 应用，比如说一些游戏关键场景提醒功能，团队语音交流等等都可以基于IM来实现。说了这么多，就是一个意思，其商业价值远远比你想的高！ Spark Smack 和 Openfire 开源界总是有许多有趣的东东，这三个合起来就是一个完整的XMPP IM 实现。包括服务器端——Openfire，客户端——Spark，XMPP 传输协议的实现——Smack（记住，XMPP是一个协议，协议是需要实现的，Smack起到的就是这样的一个作用）。三者都是基于Java 语言的实现，因此对于熟悉Java 的开发者来说不是很难 Spark 提供了客户端一个基本的实现，并提出了一个很好的插件架构，这对于开发者来说不能不说是一个福音。我强烈建议基于插件方式来实现你新增加的功能，而不是去改它的源代码，这样有利于你项目架构，把原始项目的影响降到最低 Openfire 是基于XMPP 协议的IM 的服务器端的一个实现，虽然当两个用户连接后，可以通过点对点的方式来发送消息，但是用户还是需要连接到服务器来获取一些连接信息和通信信息的，所以服务器端是必须要实现的。Openfire 也提供了一些基本功能，但真的很基本的！庆幸的是，它也提供插件的扩展，像Spark 一样，我同样强烈建议使用插件扩展的方式来增加新的功能，而不是修改人家的源代码。 Smack 是一个XMPP 协议的Java 实现，提供一套可扩展的API 下图展示了三者之间的关系： 安装openfire安装spark客户端]]></content>
-      <categories>
-        <category>XMPP</category>
-      </categories>
-      <tags>
-        <tag>XMPP</tag>
-        <tag>Smack</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[XMPP]]></title>
-    <url>%2F2017%2F08%2F29%2FXMPP%2F</url>
-    <content type="text"><![CDATA[XMPP（Extensible Messaging and Presence Protocol，前称Jabber）是一种以XML为基础的开放式即时通信协议 运作方式XMPP网络是基于服务器的（即客户端之间彼此不直接交谈），但是也是分布式的。不像AOL即时通或MSN Messenger等服务，XMPP没有中央官方服务器。Jabber.org的公众服务器上有大量的用户，所以有些人误解了，以为它是官方服务器，不过事实上任何人都可以在自己的网域上运行XMPP服务器。 Jabber识别符（JID）是用户登录时所使用的账号，看起来通常像一个电子邮件地址，如someone@example.com；前半部分为用户名，后半部分为XMPP服务器域名，两个字段以@符号区隔。 举例说明假设朱丽叶（juliet@capulet.com）想和罗密欧（romeo@montague.net）通话，他们两人的账号分别在Capulet.com及Montague.net的服务器上。当朱丽叶输入消息并按下发送钮之后，一连串的事件就发生了：朱丽叶的XMPP客户端将她的消息发送到Capulet.com XMPP服务器。Capulet.com XMPP服务器打开与Montague.net XMPP服务器的连接。Montague.net XMPP服务器将消息寄送给罗密欧。如果他目前不在在线，那么存储消息以待稍后寄送。罗密欧与朱丽叶两人的XMPP服务是由两家不同的业者所提供的，而他们彼此传讯时，不须拥有对方服务器的账号，也不须成为对方业者的会员。 Smack]]></content>
-      <categories>
-        <category>XMPP</category>
-      </categories>
-      <tags>
-        <tag>XMPP</tag>
-        <tag>Smack</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2017%2F08%2F24%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>hello world</category>
-      </categories>
-      <tags>
-        <tag>hello world</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title></title>
+      <url>/2017/10/20/%E5%94%AE%E5%89%8D/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[讲标]]></title>
+      <url>/2017/10/20/%E8%AE%B2%E6%A0%87/</url>
+      <content type="html"><![CDATA[<p>讲标要涉及到标书中的方方面面，要突出公司特点和优势、要突出产品的技术优势和特点，还要尽量照顾到每个评委。<br>讲标通常都有时间限制的，在这个时间段内，如何将<strong>公司介绍、商务介绍、技术介绍、项目实施、技术支持与服务等内容</strong>的时间合理分配，需要在讲标前仔细斟酌。</p>
+<h4 id="时间和内容的分配主要根据以下情况来调整："><a href="#时间和内容的分配主要根据以下情况来调整：" class="headerlink" title="时间和内容的分配主要根据以下情况来调整："></a>时间和内容的分配主要根据以下情况来调整：</h4><ul>
+<li>了解招标评委的组成和特点。 要力所能及的分析招标评委的组成情况，高层领导、技术专家、部门业务专家等角色的人员组成和数量。通常<strong>高层领导</strong>对IT技术不熟悉，他评判的主要依据更多的是公司规模、资质、实力、售后服务、价格等非技术性指标，<strong>技术专家</strong>评判的主要依据是系统体系、采用的新技术、安全性、扩展性、软件开发管理机制等技术指标，而<strong>部门业务专家</strong>更关心软件的功能、易用性、与现有系统的接口等问题。<strong>讲标的过程中要注意观察评委的表情、态度，及时调整内容的深度</strong></li>
+<li>充分发挥<strong>本公司和技术上</strong>的优势和特点。 讲标中，特别是讲标的顺序排在后面的时候，对于一些共性的东西，评委已经比较清楚了，也没有兴趣听你重复，<strong>他关心的是你与其它对手相比的特点</strong></li>
+<li>对手讲标后的情况和弱点。 针对对手讲标后评委普遍反映的问题进行重点阐述，例如，<br>评委认为系统的安全性和项目开发的规范性很重要，但其它讲过标的对手都没重视，这时，你需要及时调整内容，将安全性和项目开发机制做重点来阐述。<br>另外，不要轻易攻击对手，可能有些评委对你的对手有好感，你对对手的直接攻击，会引起他的反感而刻意打压你。攻击对手的方法是突出自己的优势。<h4 id="讲标中可能由几个人分工"><a href="#讲标中可能由几个人分工" class="headerlink" title="讲标中可能由几个人分工"></a>讲标中可能由几个人分工</h4>讲不同的内容，但要注意整体的逻辑上要严密。可以先由一个人将讲标的全部内容安排做一个介绍，然后在每个人讲完自己部分后，简单介绍下部分的内容，引入下个讲解人员。使整个讲标连贯统一。<br>讲标前要调整好自己的状态和心态，讲标过程中要放松，不要报着“上考场应考”、“被人评判审核”这样的心态，这样会使你陷入一种紧张、诚惶诚恐的状态中。<br>当你上到讲标台上，<strong>你应该对自己方案和产品充满信心，多想想如何把自己的长处发挥到及至</strong>，而不是时时想着还存在的问题！<strong>你越自信，客户以及评委才会对你更有信心。态度诚恳，不卑不亢，注重礼仪，赢得评委好感！</strong></li>
+</ul>
+<h3 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h3><ul>
+<li>第一，要对你要讲ppt非常熟，能背下来当然最好。这当然取决于你对投的系统和产品要熟悉。</li>
+<li><p>第二，整个ppt的结构和体系要设计合理，不要很复杂，一般来说，我会分4～5个部分：</p>
+<p>1，项目概述（需求和范围）</p>
+<p>2，方案设计（项目分析，设计，系统功能说明，具体部署）</p>
+<p>3，方案特色 （标明出几个亮点部分）</p>
+<p>4，项目实施和维护</p>
+<p>5，公司介绍和案例说明。</p>
+</li>
+<li>我感觉是方案设计部分一定要说清楚，方案特色方面要紧密结合用户，千万不能光说功能让人觉得是产品介绍。第三，我觉得就是从技巧方面考虑了，ppt字不要多，提纲挈领再加上图。说话的语气，语速，轻重音，长短，停顿都需要注意，这一点我差的太远，口头语多，容易紧张。需要锻炼。另外讲标或者做售前交流的时候，我觉得有时需要观察评委和用户的态度和表情，及时调整，注意观察。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 讲标 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 讲标 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Markdown示例]]></title>
+      <url>/2017/10/13/markdown%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</url>
+      <content type="html"><![CDATA[<p>###粗体<br> <strong>马克飞象</strong></p>
+<p>###突出<br><code>Ctrl + /</code></p>
+<p>###列表</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+</ul>
+<p>###引用</p>
+<blockquote>
+<p>三人行必有吾师。    —— <a href="http://baike.baidu.com/" target="_blank" rel="external">孔子</a></p>
+</blockquote>
+<p><a href="http://www.example.com" target="_blank" rel="external">链接名</a>或一个脚注[^demo]。</p>
+<p>###代码<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> emp = &#123;	<span class="attr">name</span>:<span class="string">"Frank"</span>, <span class="attr">age</span>:<span class="number">45</span> &#125;;</div></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">代码内容</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">代码内容</div></pre></td></tr></table></figure>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">5600</td>
+<td style="text-align:center">5   </td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">120</td>
+<td style="text-align:center">12  </td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">10</td>
+<td style="text-align:center">234  </td>
+</tr>
+</tbody>
+</table>
+<p>###流程图</p>
+<div id="flowchart-0" class="flow-chart"></div>
+
+<p>###以及时序图:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">客户端-&gt;服务端: 给我姓名叫张三的员工信息</div><div class="line">Note right of 服务端: 服务端响应</div><div class="line">服务端--&gt;客户端: 给你张三的信息</div></pre></td></tr></table></figure>
+<h3 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h3><p>可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：</p>
+<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+e=>end: 结束
+op1=>operation: 准备数据
+op2=>operation: 计算处理
+cond1=>condition: 是否正确?
+
+st->op1->op2->cond1
+cond1(yes)->e
+cond1(no)->op1</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Markdown </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[vocabulary]]></title>
+      <url>/2017/10/12/%E5%8D%95%E8%AF%8D%E6%9C%AC/</url>
+      <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fkgcakidd2j30go0acmxk.jpg" alt=""><br></p>
+<ul>
+<li><p><strong>包名：</strong>全部小写，如包名“com.sina.crm”。</p>
+</li>
+<li><p><strong>变量名：</strong>第1个单词首字母小写，其后单词首字母大写。变量名应简单、易于描述，尽量不要以美元符号和下画线开，如变量名“name”、“myHeight”。</p>
+</li>
+<li><p><strong>方法名：</strong>第1个单词小写，以后每个单词首字母大写，例如方法名“getName”。</p>
+</li>
+<li><p><strong>类名或接口名：</strong>每个单词首字母大写，应使用简洁且富于描述的完整名词，不要使用缩写词，如类名“MyData”，接口名“RowSet”。</p>
+</li>
+<li><p><strong>常量：</strong>全大写，用下画线“_”来分隔每个单词，例如“MIN_WIDTH”。</p>
+</li>
+</ul>
+<p><em>简单的说，就是包名全小写，变量名和方法、类名和接口名 非首字母都大写，但是变量名和方法名首字母小写</em></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">patchy</div><div class="line"></div><div class="line">英 [&apos;pætʃɪ]  美 [&apos;pætʃi]</div><div class="line">adj. 不调和的；拼凑成的；有补丁的</div><div class="line">比较级patchier</div><div class="line">最高级patchiest</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> vocabulary </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> vocabulary </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Smack+Spark项目测试]]></title>
+      <url>/2017/08/30/Smack+Spark%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fjoqkadxsrj30cq0i1n0f.jpg" alt=""></p>
+<blockquote>
+<p>每一个你不满意的现在，都有一个你没有努力的曾经。</p>
+</blockquote>
+<h1 id="Java领域的IM解决方案"><a href="#Java领域的IM解决方案" class="headerlink" title="Java领域的IM解决方案"></a>Java领域的IM解决方案</h1><p>Java领域的即时通信的解决方案可以考虑openfire+spark+smack。当然也有其他的选择。</p>
+<p>什么是XMPP？<br>Extensible Messaging and Presence Protocol，简单的来讲，它就是一个发送接收处理消息的协议，但是这个协议发送的消息，既不是二进制的东东也不是字符串，而是XML。正是因为使用了XML作为消息传递的中介，Extensible 才谈的上，不是么？</p>
+<p>什么是IM ？</p>
+<p>Instant Messenger，及时通信软件，就是大家使用的QQ、MSN Messenger和Gtalk等等。其中Gtalk 就是基于XMPP 协议的一个实现，其他的则不是。当前IM 几乎作为每个上网者必然使用的工具，在国外的大型企业中有一些企业级的IM应用，但是其商业价值还没完全发挥出来。设想既然XMPP 协议是一个公开的协议，那么每个企业都可以利用它来开发适合本身企业工作，提高自身生产效率的IM；甚至，你还可以在网络游戏中集成这种通信软件，不但让你可以边游戏边聊天，也可以开发出适合游戏本身的IM 应用，比如说一些游戏关键场景提醒功能，团队语音交流等等都可以基于IM来实现。说了这么多，就是一个意思，其商业价值远远比你想的高！</p>
+<p>Spark Smack 和 Openfire</p>
+<p>开源界总是有许多有趣的东东，这三个合起来就是一个完整的XMPP IM 实现。包括服务器端——Openfire，客户端——Spark，XMPP 传输协议的实现——Smack（记住，XMPP是一个协议，协议是需要实现的，Smack起到的就是这样的一个作用）。三者都是基于Java 语言的实现，因此对于熟悉Java 的开发者来说不是很难</p>
+<p>Spark 提供了客户端一个基本的实现，并提出了一个很好的插件架构，这对于开发者来说不能不说是一个福音。我强烈建议基于插件方式来实现你新增加的功能，而不是去改它的源代码，这样有利于你项目架构，把原始项目的影响降到最低</p>
+<p>Openfire 是基于XMPP 协议的IM 的服务器端的一个实现，虽然当两个用户连接后，可以通过点对点的方式来发送消息，但是用户还是需要连接到服务器来获取一些连接信息和通信信息的，所以服务器端是必须要实现的。Openfire 也提供了一些基本功能，但真的很基本的！庆幸的是，它也提供插件的扩展，像Spark 一样，我同样强烈建议使用插件扩展的方式来增加新的功能，而不是修改人家的源代码。</p>
+<p>Smack 是一个XMPP 协议的Java 实现，提供一套可扩展的API</p>
+<p>下图展示了三者之间的关系：<br><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fj1l4mogdaj30g4080jsl.jpg" alt=""></p>
+<h1 id="安装openfire"><a href="#安装openfire" class="headerlink" title="安装openfire"></a>安装openfire</h1><h1 id="安装spark客户端"><a href="#安装spark客户端" class="headerlink" title="安装spark客户端"></a>安装spark客户端</h1>]]></content>
+      
+        <categories>
+            
+            <category> XMPP </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> XMPP </tag>
+            
+            <tag> Smack </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[XMPP]]></title>
+      <url>/2017/08/29/XMPP/</url>
+      <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fj0jya1o3mj30ly0b90u7.jpg" alt=""><br>XMPP（Extensible Messaging and Presence Protocol，前称Jabber）是一种以XML为基础的开放式即时通信协议</p>
+<h2 id="运作方式"><a href="#运作方式" class="headerlink" title="运作方式"></a>运作方式</h2><p>XMPP网络是基于服务器的（即客户端之间彼此不直接交谈），但是也是分布式的。不像AOL即时通或MSN Messenger等服务，XMPP没有中央官方服务器。Jabber.org的公众服务器上有大量的用户，所以有些人误解了，以为它是官方服务器，不过事实上任何人都可以在自己的网域上运行XMPP服务器。</p>
+<p>Jabber识别符（JID）是用户登录时所使用的账号，看起来通常像一个电子邮件地址，如someone@example.com；前半部分为用户名，后半部分为XMPP服务器域名，两个字段以@符号区隔。</p>
+<h3 id="举例说明"><a href="#举例说明" class="headerlink" title="举例说明"></a>举例说明</h3><p>假设朱丽叶（juliet@capulet.com）想和罗密欧（romeo@montague.net）通话，他们两人的账号分别在Capulet.com及Montague.net的服务器上。当朱丽叶输入消息并按下发送钮之后，一连串的事件就发生了：<br>朱丽叶的XMPP客户端将她的消息发送到Capulet.com XMPP服务器。<br>Capulet.com XMPP服务器打开与Montague.net XMPP服务器的连接。<br>Montague.net XMPP服务器将消息寄送给罗密欧。如果他目前不在在线，那么存储消息以待稍后寄送。<br><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fj0jyn4uopj30fo01ot8i.jpg" alt=""><br>罗密欧与朱丽叶两人的XMPP服务是由两家不同的业者所提供的，而他们彼此传讯时，不须拥有对方服务器的账号，也不须成为对方业者的会员。</p>
+<h2 id="Smack"><a href="#Smack" class="headerlink" title="Smack"></a><a href="https://baike.baidu.com/item/Smack/7056177?fr=aladdin" target="_blank" rel="external">Smack</a></h2>]]></content>
+      
+        <categories>
+            
+            <category> XMPP </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> XMPP </tag>
+            
+            <tag> Smack </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2017/08/24/hello-world/</url>
+      <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006s5QLMly1fj0jsw0dy8j30y40lb759.jpg" alt=""></p>
+<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=440353010&auto=1&height=32"></iframe><br>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> hello world </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hello world </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>
